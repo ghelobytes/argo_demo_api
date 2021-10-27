@@ -6,5 +6,5 @@ app = FastAPI()
 @app.get("/")
 async def root():
     return {
-        "version": "2.0.0"
+        "version": "1.0.0"
     }
